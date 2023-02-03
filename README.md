@@ -1,17 +1,17 @@
 ## Matplotlib_Challenge
-#Background
+# Background
 You've just joined Pymaceuticals, Inc., a new pharmaceutical company that specializes in anti-cancer medications. Recently, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.
 
 As a senior data analyst at the company, you've been given access to the complete data from their most recent animal study. In this study, 249 mice who were identified with SCC tumors received treatment with a range of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of Pymaceuticals’ drug of interest, Capomulin, against the other treatment regimens.
 
 The executive team has tasked you with generating all of the tables and figures needed for the technical report of the clinical study. They have also asked you for a top-level summary of the study results.
 
-Files
+# Files
 Download the following files to help you get started:
 
 Module 5 Challenge filesLinks to an external site.
 
-Instructions
+## Instructions
 This assignment is broken down into the following tasks:
 
 Prepare the data.
@@ -35,7 +35,7 @@ Display the number of unique mice IDs in the data, and then check for any mouse 
 
 Display the updated number of unique mice IDs.
 
-Generate Summary Statistics
+## Generate Summary Statistics
 Create a DataFrame of summary statistics. Remember, there is more than one method to produce the results you're after, so the method you use is less important than the result.
 
 Your summary statistics should include:
@@ -57,7 +57,7 @@ Create the first pie chart with the Pandas DataFrame.plot() method.
 
 Create the second pie chart with Matplotlib's pyplot methods.
 
-Calculate Quartiles, Find Outliers, and Create a Box Plot
+## Calculate Quartiles, Find Outliers, and Create a Box Plot
 Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculate the quartiles and IQR, and determine if there are any potential outliers across all four treatment regimens. Use the following substeps:
 
 Create a grouped DataFrame that shows the last (greatest) time point for each mouse. Merge this grouped DataFrame with the original cleaned DataFrame.
@@ -82,7 +82,7 @@ Calculate the correlation coefficient and linear regression model between mouse 
 
 Plot the linear regression model on top of the previous scatter plot.
 
-Requirements
+## Requirements
 Prepare the Data (20 points)
 The datasets are merged into a single DataFrame. (6 points)
 The number of mice are shown from the merged DataFrame. (2 points)
